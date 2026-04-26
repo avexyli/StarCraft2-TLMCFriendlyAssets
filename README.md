@@ -87,6 +87,10 @@ Place your typecursor at the end of the last digit, before the period, and delet
 * Make sure you are in the correct tab (i.e Terrain Types, Models, Terrain Cliffs, etc.) before placing the XML within the catalog bracket. 
 * Save your Document.
 
+### Cache Overwriting
+
+* This does not apply to any assets within this repository but a word of caution - should you choose to rename any texture, be it from this repository or an asset of your own creation, do *not* name the texture to be the same namespace as one reserved by a texture within the main-line StarCraft 2 dependencies. Doing so will load this texture into the cache as a priority and not be emptied until the client or editor is flushed or restarted, this has caused issues in the past and for TLMCs it is not a permitted practice.
+
 
 ## Frequently Asked Questions:
 
