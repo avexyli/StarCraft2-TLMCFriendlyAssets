@@ -5,7 +5,7 @@ This repository contains models, effects and textures for StarCraft II mapmakers
 
 All assets contained within this repository are modifications of assets contained within the non-Campaign StarCraft II Liberty, Heart of the Swarm, Legacy of the Void, or WarCraft III dependencies, exported from the Heroes of the Storm dependency with the assistance of the mod [Resurgence of the Storm by zeroLamberg](https://github.com/zeroLamberg/RotS-Mods). All original assets are the intellectual property of Blizzard Entertainment and I do not claim ownership of these modifications. 
 
-Under the [Blizzard's Custom Game Acceptable Use Policy](https://www.blizzard.com/en-us/legal/2749df07-2b53-4990-b75e-a7cb3610318b/custom-game-acceptable-use-policy), Section 3, these assets are not considered third party as they belong to Blizzard. These assets are and must remain free to use.
+Under the [Blizzard's Custom Game Acceptable Use Policy](https://www.blizzard.com/en-us/legal/2749df07-2b53-4990-b75e-a7cb3610318b/custom-game-acceptable-use-policy), Section 3, these assets are not considered third party as they belong to Blizzard. These assets are and must remain free to use. These assets are intended for exclusive, non-commercial usage and may not be re-distributed under these means.
 
 ## How to Navigate These Assets
 
