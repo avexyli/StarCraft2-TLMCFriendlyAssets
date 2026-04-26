@@ -24,6 +24,7 @@ This is a guide on how to Import and Implement both No_Custom and Custom assets 
 * **IMPORTANT:** For Custom imported assets only, **only** import the textures included with the associated files first. Make sure all imported textures are brought in under the *Assets/Textures* hierarchy, if they are not, select them all, right click them and choose Move Files (Ctrl+M), select New Path and manually type *Assets/Textures*. 
 * **If you did the above, SAVE YOUR DOCUMENT**. Then import the models, they maintain their folder paths from the git archive, which will be Assets/Cliffs for any CliffMaterial, Assets/Waters for any Water or Lava, Assets/Effects for any Particles, whilst the rest fall under Assets/Doodads. If done correctly, there should be no texture or material errors. See the FAQ for more. 
 * For any No_Custom imported assets, import the selected models and ensure they follow their Assets/Doodad paths, then **save your document.**
+* Lighting Presets are not imported via this menu, this is discussed in another section.
 * Click on Modules > Data (F7), and head to the appropriate section for your associated asset. You will be utilizing the small tab with the green plus to navigate through various submenus.
 
 ### Applying Terrain Cliffs
@@ -64,5 +65,23 @@ Place your typecursor at the end of the last digit, before the period, and delet
 * Press Ctrl+D again, and save your document. If you elected to import *fewer* assets than what was originally provided in the git archive, you **must** update (Basic) Art: Variation Count to reflect the new total count, starting from 00. 
 * Some recommended "unused" models that are safe for swapping out for Custom imported assets are Test Model 1A, 1, 1C, 1D, 2 & 3; the various shapes such as ActorShapeCone or ActorShapeSphere, etc.
 
+### Applying Custom Lava
 
+The instructions for Lava is exactly the same as the Models replacement section; however, this specifically is replacing the *Default Lava* and *Default Lava Low* models. If there are any models related to Splashes they are involving Physics Impact Lava Large, Light, Massive and Medium. Not changing these to match the lava replacement will be visually jarring. 
 
+### Importing & Applying Lighting Sets
+
+* Navigate to Window > Lighting (Ctrl+Shift+F10)
+* To create a New Light set, right click in the left panel and choose New Light Set; create a Name, use the Suggest button to create a matching ID, set the Light Group to Tileset. (You can press T to get there quicker); if you want to simply replace a pre-existing lightset, simply locate the one you wish to replace and follow the next instruction just the same.
+* Click on the lighting folder and expand it, make sure the Lighting Set (with the Lightbulb icon) is selected. 
+* Right click on it and choose Import Light.
+* Navigate to where you exported your ZIP and select the .SC2Lighting file. 
+* Save your document.
+
+### XML
+
+* These snippets of code are to be placed within the Data module utilizing the XML mode (Ctrl+3). 
+* Make sure you are on your local map version and not any of the Dependencies Void.SC2Mod, Swarm.SC2Mod, Liberty.SC2Mod, or Core.SC2Mod. 
+* A blank map will have no XML except for a header stating its version and utf-8 encoding, followed by an open and close catalog bracket. 
+* Make sure you are in the correct tab (i.e Terrain Types, Models, Terrain Cliffs, etc.) before placing the XML within the catalog bracket. 
+* Save your Document.
