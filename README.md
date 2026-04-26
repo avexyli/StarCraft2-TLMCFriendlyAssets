@@ -67,7 +67,8 @@ Place your typecursor at the end of the last digit, before the period, and delet
 
 ### Applying Custom Lava
 
-The instructions for Lava is exactly the same as the Models replacement section; however, this specifically is replacing the *Default Lava* and *Default Lava Low* models. If there are any models related to Splashes they are involving Physics Impact Lava Large, Light, Massive and Medium. Not changing these to match the lava replacement will be visually jarring. 
+* The instructions for Lava is exactly the same as the Models replacement section; however, this specifically is replacing the *Default Lava* and *Default Lava Low* models. If there are any models related to Splashes they are involving Physics Impact Lava Large, Light, Massive and Medium. Not changing these to match the lava replacement will be visually jarring. 
+* There is no way to replace *water*. This is hardcoded.
 
 ### Importing & Applying Lighting Sets
 
@@ -85,3 +86,16 @@ The instructions for Lava is exactly the same as the Models replacement section;
 * A blank map will have no XML except for a header stating its version and utf-8 encoding, followed by an open and close catalog bracket. 
 * Make sure you are in the correct tab (i.e Terrain Types, Models, Terrain Cliffs, etc.) before placing the XML within the catalog bracket. 
 * Save your Document.
+
+
+## Frequently Asked Questions:
+
+### My (Cliff, Model, Terrain Texture) is a blue-ish color!
+* Your textures are not imported to the correct path, ensure they are pathed to Assets/Textures, save your document, and **restart your editor**. 
+### My model looks like a little sphere, and I'm getting an error!
+* Your Variation Count does not add up with the amount of .m3 variations; ensure these are correct. It starts counting at _00 as 1, then save your document. You may have to close the document and re-open it (not the entire editor).
+### My Terrain texture looks really flat and strange!?
+* You likely did not implement the (Basic) Normal Map, or you put the imported Terrain Texture colormap there instead of the proper Normal Map, ensure these are correct.
+### I have placed the texture maps correctly, but things aren't blending well or to my liking.
+* Toy with the (Basic) Height Map Scale setting, and then the Height Map Offset if needed. 
+
