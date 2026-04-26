@@ -1,11 +1,11 @@
 # StarCraft 2 TLMC-Friendly Assets
 This repository contains models, effects and textures for StarCraft II mapmakers primarily for the use of the Team Liquid Map Contest. This readme will explain how to use these assets and their limitations.
 
-## Foreward
+## Foreward & Legal
 
-All assets contained within this repository are modifications of assets contained within the non-Campaign StarCraft II Liberty, Heart of the Swarm, Legacy of the Void, or WarCraft III dependencies, exported from the Heroes of the Storm dependency with the assistance of the mod [Resurgence of the Storm by zeroLamberg](https://github.com/zeroLamberg/RotS-Mods). All original assets are the intellectual property of Blizzard Entertainment and I do not claim ownership of these modifications. 
+All assets contained within this repository are modifications of assets contained within the non-Campaign StarCraft II Liberty, Heart of the Swarm, Legacy of the Void, or WarCraft III dependencies, exported from the Heroes of the Storm dependency with the assistance of the mod [Resurgence of the Storm by zeroLamberg](https://github.com/zeroLamberg/RotS-Mods). All original assets are the intellectual property of Blizzard Entertainment and I do not claim ownership of any asset held in this repository. 
 
-Under the [Blizzard's Custom Game Acceptable Use Policy](https://www.blizzard.com/en-us/legal/2749df07-2b53-4990-b75e-a7cb3610318b/custom-game-acceptable-use-policy), Section 3, these assets are not considered third party as they belong to Blizzard. These assets are and must remain free to use. These assets are intended for exclusive, non-commercial usage and may not be re-distributed under these means.
+Under the [Blizzard's Custom Game Acceptable Use Policy](https://www.blizzard.com/en-us/legal/2749df07-2b53-4990-b75e-a7cb3610318b/custom-game-acceptable-use-policy), Section 3, these assets are not considered third party as they belong to Blizzard. These assets are and must remain free to use. Whilst this repository itself may be contributed to and modifiable, these assets are intended for exclusive, non-commercial usage and may not be re-distributed under these means under [Blizzard's End User Liscence Agreement](https://www.blizzard.com/en-us/legal/fba4d00f-c7e4-4883-b8b9-1b4500a402ea/blizzard-end-user-license-agreement).
 
 ## How to Navigate These Assets
 
@@ -51,7 +51,8 @@ This is a guide on how to Import and Implement both No_Custom and Custom assets 
 
 ### Applying Models
 
-#### A warning about Models: some models may have higher vertex counts than others, unique use of particle effects or shaders. Be mindful how you use these external models, utilize Wireframe Mode, swap Graphics modes, and check ingame performance for the comfort of our playerbase.
+#### A warning about Models: 
+Some models may have higher vertex counts than others, unique use of particle effects or shaders. Be mindful how you use these external models, utilize Wireframe Mode, swap Graphics modes, and check ingame performance for the comfort of our playerbase.
 
 * Navigate through Edit Art and Sound Data > Models
 * Locate the model you wish to swap.
