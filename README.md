@@ -1,19 +1,26 @@
 # StarCraft 2 TLMC-Friendly Assets
 This repository contains models, effects and textures for StarCraft II mapmakers primarily for the use of the Team Liquid Map Contest. This readme will explain how to use these assets and their limitations.
 
+This is a guide on how to Import and Implement both No_Custom and Custom assets from this repository, I will be referring to both as "Imported Assets" throughout this guide. 
+
 ## Foreward & Legal
 
 All assets contained within this repository are modifications of assets contained within the non-Campaign StarCraft II Liberty, Heart of the Swarm, Legacy of the Void, or WarCraft III dependencies, exported from the Heroes of the Storm dependency with the assistance of the mod [Resurgence of the Storm by zeroLamberg](https://github.com/zeroLamberg/RotS-Mods). All original assets are the intellectual property of Blizzard Entertainment and I do not claim ownership of any asset held in this repository. 
 
-Under the [Blizzard's Custom Game Acceptable Use Policy](https://www.blizzard.com/en-us/legal/2749df07-2b53-4990-b75e-a7cb3610318b/custom-game-acceptable-use-policy), Section 3, these assets are not considered third party as they belong to Blizzard. These assets are and must remain free to use. Whilst this repository itself may be contributed to and modifiable, these assets are intended for exclusive, non-commercial usage and may not be re-distributed under these means under [Blizzard's End User Liscence Agreement](https://www.blizzard.com/en-us/legal/fba4d00f-c7e4-4883-b8b9-1b4500a402ea/blizzard-end-user-license-agreement).
+Under the [Blizzard's Custom Game Acceptable Use Policy](https://www.blizzard.com/en-us/legal/2749df07-2b53-4990-b75e-a7cb3610318b/custom-game-acceptable-use-policy), Section 3, these assets are not considered third party as they belong to Blizzard. These assets are and must remain free to use. Whilst this repository itself may be contributed to and modifiable, these assets are intended for exclusive, non-commercial usage and may not be used for purposed outside of StarCraft II or re-distributed under alternative means under [Blizzard's End User Liscence Agreement](https://www.blizzard.com/en-us/legal/fba4d00f-c7e4-4883-b8b9-1b4500a402ea/blizzard-end-user-license-agreement).
+
+The Team Liquid Map Contest (TLMC) is a contest ran by [Team Liquid](https://tl.net/), and I am not affiliated with the organization in any way.
+
+## Important Notice About TLMC & Blizzard Standards
+
+Documents submitted through the TLMC process that utilize imported assets have a strict cieling of 10 Megabytes (after compression) - any document that exceeds this limit may be subject to having their assets removed; documents may be subject to the QA standards of both TLMC and Blizzard Entertainment and have their assets further optimized or removed. By using these assets, you accept responsibility for any issues that may arise from inappropriately using these assets such as improper or unoptimal use. I (the contributor of this repository) do not provide QA or support for your documents during and outside of TLMC.
+
 
 ## How to Navigate These Assets
 
 The majority of assets are organized within folders affixed with Custom or No_Custom to better separate their contents. Folders with No_Custom as their suffix contain any assets that do not rely on any new textures created by me, and will be the lightest on filesize. Examples of No-Custom assets may be pre-existing StarCraft 2 models with parts of their mesh and bones stripped away, or their materials and textures adjusted or re-mapped to other textures that exist within the non-Campaign Liberty, Swarm or Void  dependencies. Folders with the Custom suffix will always contain at least one texture I have modified or created -- or a texture that has been exported from elsewhere as noted in the Foreward; that is **required** for the model's material to render properly. Examples of Custom assets may be a CliffMaterial with a re-colored emissive, a port of a Heroes of the Storm CliffMaterial or other model, or multiple textures re-assigned to an exported model to completely adjust it's appearance beyond simple No_Custom material alterations.
 
 ## IMPORTANT: How to Use These Assets
-
-This is a guide on how to Import and Implement both No_Custom and Custom assets from this repository, I will be referring to both as "Imported Assets" throughout this guide.
 
 * Download the release ZIP file or copy from the master, they'll be identical. 
 * Export the ZIP into your directory of choice, make it relatively to access (i.e your desktop, documents folder, somewhere not too nested), the editor does not have breadcrumbs and utilizes the old treebranch file navigation method.
