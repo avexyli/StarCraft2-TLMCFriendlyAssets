@@ -1,7 +1,7 @@
 # StarCraft 2 TLMC-Friendly Assets
 This repository contains models, effects and textures for StarCraft II mapmakers primarily for the use of the Team Liquid Map Contest. This readme will explain how to use these assets and their limitations.
 
-This is a guide on how to Import and Implement both No_Custom and Custom assets from this repository, I will be referring to both as "Imported Assets" throughout this guide. 
+This is a guide on how to Import and Implement both "No Custom" and Custom assets from this repository, I will be referring to both as "Imported Assets" throughout this guide. 
 
 ## Foreward & Legal
 
@@ -18,7 +18,7 @@ Documents submitted through the TLMC process that utilize imported assets have a
 
 ## How to Navigate These Assets
 
-The majority of assets are organized within folders affixed with Custom or No_Custom to better separate their contents. Folders with No_Custom as their suffix contain any assets that do not rely on any new textures created by me, and will be the lightest on filesize. Examples of No-Custom assets may be pre-existing StarCraft 2 models with parts of their mesh and bones stripped away, or their materials and textures adjusted or re-mapped to other textures that exist within the non-Campaign Liberty, Swarm or Void  dependencies. Folders with the Custom suffix will always contain at least one texture I have modified or created -- or a texture that has been exported from elsewhere as noted in the Foreward; that is **required** for the model's material to render properly. Examples of Custom assets may be a CliffMaterial with a re-colored emissive, a port of a Heroes of the Storm CliffMaterial or other model, or multiple textures re-assigned to an exported model to completely adjust it's appearance beyond simple No_Custom material alterations.
+The majority of assets are organized within folders affixed with Custom or "No Custom" to better separate their contents. Folders with "No Custom" as their suffix contain any assets that do not rely on any new textures created by me, and will be the lightest on filesize. Examples of "No Custom" assets may be pre-existing StarCraft 2 models with parts of their mesh and bones stripped away, or their materials and textures adjusted or re-mapped to other textures that exist within the non-Campaign Liberty, Swarm or Void  dependencies. Folders with the Custom suffix will always contain at least one texture I have modified or created -- or a texture that has been exported from elsewhere as noted in the Foreward; that is **required** for the model's material to render properly. Examples of Custom assets may be a CliffMaterial with a re-colored emissive, a port of a Heroes of the Storm CliffMaterial or other model, or multiple textures re-assigned to an exported model to completely adjust it's appearance beyond simple "No Custom" material alterations.
 
 ## IMPORTANT: How to Use These Assets
 
@@ -30,7 +30,7 @@ The majority of assets are organized within folders affixed with Custom or No_Cu
 * Right click on the space on the left and choose Import Files (Ctrl+I), navigate to where you exported the ZIP. 
 * **IMPORTANT:** For Custom imported assets only, **only** import the textures included with the associated files first. Make sure all imported textures are brought in under the *Assets/Textures* hierarchy, if they are not, select them all, right click them and choose Move Files (Ctrl+M), select New Path and manually type *Assets/Textures*. 
 * **If you did the above, SAVE YOUR DOCUMENT**. Then import the models, they maintain their folder paths from the git archive, which will be Assets/Cliffs for any CliffMaterial, Assets/Waters for any Water or Lava, Assets/Effects for any Particles, whilst the rest fall under Assets/Doodads. If done correctly, there should be no texture or material errors. See the FAQ for more. 
-* For any No_Custom imported assets, import the selected models and ensure they follow their Assets/Doodad paths, then **save your document.**
+* For any "No Custom" imported assets, import the selected models and ensure they follow their Assets/Doodad paths, then **save your document.**
 * Lighting Presets are not imported via this menu, this is discussed in another section.
 * Click on Modules > Data (F7), and head to the appropriate section for your associated asset. You will be utilizing the small tab with the green plus to navigate through various submenus.
 
