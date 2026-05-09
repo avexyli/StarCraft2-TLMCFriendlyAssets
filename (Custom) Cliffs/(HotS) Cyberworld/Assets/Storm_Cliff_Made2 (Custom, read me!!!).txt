@@ -1,0 +1,2 @@
+You must make a new Cliff Mesh with Assets\Cliffs\Storm_Cliff_Made2\ as the Model Path 
+for this Material to work on it properly! Weld Normals is Enabled.
